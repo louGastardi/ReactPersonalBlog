@@ -1,0 +1,53 @@
+.post-model-container {
+  color: var(--color-font-post);
+  position: relative;
+}
+
+.photo-cover,
+.title {
+  height: 204px;
+}
+
+.photo-cover {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.title-post {
+  font-family: var(--font-secundary);
+  padding: 0 7.5rem;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.post-content-container {
+  padding: 2.5rem 7.5rem 4.5rem;
+}
+
+@media (max-width: 744px) {
+  .post-content-container {
+    padding: 2rem 1.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 744px) {
+  .photo-cover,
+  .title {
+    height: 104px;
+  }
+
+  .title {
+    padding: 0 1rem;
+    font-size: 2rem;
+  }
+
+  .post-content-container {
+    padding: 2rem 1rem 1.5rem;
+  }
+}
