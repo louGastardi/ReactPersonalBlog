@@ -5,17 +5,21 @@ import Error404 from './pages/Error404';
 import Navbar from './components/Navbar';
 import Footer from 'components/Footer';
 import MainStructure from 'components/MainStructure';
+import Post from 'pages/Post';
+import ScrollToTop from 'components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<MainStructure />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/aboutme" element={<AboutMe />} />
+          <Route index element={<Home />} />
+          <Route path="aboutme" element={<AboutMe />} />
         </Route>
 
+        <Route path="posts/:id/*" element={<Post />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
       <Footer />
