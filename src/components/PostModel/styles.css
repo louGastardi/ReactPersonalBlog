@@ -3,8 +3,7 @@
   position: relative;
 }
 
-.photo-cover,
-.title {
+.photo-cover {
   height: 204px;
 }
 
@@ -37,8 +36,7 @@
 }
 
 @media (max-width: 744px) {
-  .photo-cover,
-  .title {
+  .photo-cover {
     height: 104px;
   }
 

@@ -1,9 +1,15 @@
 .aboutme-pic {
-  margin-bottom: 0.5rem;
-  margin-left: 1.5rem;
-  width: 40vw;
+  margin: 1rem 0 1rem 1.5rem;
+  width: 20vw;
   float: right;
-  border-radius: 50%;
+  border-radius: 100%;
+}
+
+.aboutme-vector {
+  margin: 1rem 1.5rem 1rem 0;
+  width: 20vw;
+  float: left;
+  border-radius: 100%;
 }
 
 .subtitle {
@@ -16,33 +22,37 @@
   font-size: 1.5rem;
   line-height: 2.25rem;
   margin-bottom: 1.5rem;
+  padding-top: 1rem;
 }
 
 @media (max-width: 1100px) {
-  .aboutme-pic {
+  .aboutme-pic,
+  .aboutme-vector {
     float: none;
     display: block;
-    margin: 0 auto 2rem;
-    width: 70vw;
+    margin: 0 auto 1rem;
+    padding-top: 1rem;
   }
 
   .paragraph-aboutme {
+    margin-top: 1rem;
     margin-bottom: 2rem;
   }
 }
 
 @media (max-width: 744px) {
-  .aboutme-pic {
-    width: 100%;
+  .aboutme-pic,
+  .aboutme-vector {
+    width: 25%;
   }
 
   .subtitle {
+    text-align: center;
     font-size: 1.5rem;
-    line-height: 2rem;
-    margin-bottom: 1.5rem;
   }
 
   .paragraph-aboutme {
+    margin-top: 1rem;
     font-size: 1rem;
     line-height: 1.75rem;
   }

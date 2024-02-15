@@ -1,30 +1,31 @@
 .banner {
   padding: 3rem 7.5rem 5rem;
-  background-color: var(--blue-dark);
-  color: var(--branco);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  background-color: var(--white);
+  color: var(--white);
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
-  font-family: var(--font-secundary);
-  color: var(--white);
-  font-size: 4rem;
-  margin-top: 4.875rem;
+  font-family: var(--font-main);
+  color: var(--color-green-logo);
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.paragraph-subtitle {
+  font-family: var(--font-main);
+  color: var(--color-green-logo);
+  font-size: 1rem;
   margin-bottom: 2rem;
 }
 
-.paragraph {
-  font-family: var(--font-secundary);
-  color: var(--white);
-  font-size: 1.5rem;
-  line-height: 2rem;
-  margin-bottom: 2rem;
-}
-
-.images {
-  position: relative;
-  height: 406px;
+.logo > * {
+  max-width: 50px;
 }
 
 .images > .profile-pic {
@@ -45,11 +46,6 @@
 @media (max-width: 1100px) {
   .banner {
     padding: 3.5rem 1.5rem;
-  }
-
-  .title {
-    margin-top: 0;
-    margin-bottom: 1.5rem;
   }
 
   .paragraph {
@@ -74,10 +70,6 @@
   .banner {
     padding: 2rem 1rem;
     display: block;
-  }
-
-  .title {
-    margin-bottom: 2rem;
   }
 
   .paragraph {
