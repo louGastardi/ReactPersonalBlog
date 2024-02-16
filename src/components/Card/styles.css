@@ -24,6 +24,7 @@
   color: var(--azul-escuro);
   line-height: 1.75rem;
   margin: 1.5rem 0 1.75rem;
+  width: 85%;
 }
 
 .p-card {
