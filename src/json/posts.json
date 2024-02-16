@@ -7,7 +7,7 @@
   },
   {
     "id": 2,
-    "title": "RPG Game | JS Vanilla",
+    "title": "RPG Game | Vanilla JS",
     "link": "https://magnificent-lamington-765978.netlify.app/"
   },
   {
@@ -17,16 +17,11 @@
   },
   {
     "id": 4,
-    "title": "The Office Quiz | React & Next.JS",
-    "link": "#"
-  },
-  {
-    "id": 5,
     "title": "Message Encrypter | Vanilla JS",
     "link": "https://lougastardi.github.io/Codificador-de-texto/"
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "Movies Watchers app | Backend REST API",
     "link": "https://movie-watchers.onrender.com/login"
   }
